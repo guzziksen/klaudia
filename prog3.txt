@@ -1,0 +1,30 @@
+/* quiz1.c 
+-
+Wywolanie funkcji answer() */
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+int p
+rewr
+clrscrxxxx
+puts("Ile bajtow ma 1KB?
+\
+n");
+puts("Nacisnij Enter to sie dowiesz
+\
+n");
+pauza=getchar();
+/* Realicacja funkcji answer() */
+answer();
+getch();
+clrscr();
+return(0);
+} /* main */
+answer() /* Funkcja */
+{
+puts("1 KB ma 1024 B.");
+/* Powrot do ma
+in() */
+return;
+} /* Funkcja */

@@ -1,0 +1,35 @@
+/* Dwie_zm.c Test 2 zmiennych 
+-
+operator 
+&& (AND) i || (OR) */
+#include <stdio.h>
+#include <dos.h>
+#include <math.h>
+#include <string.h>
+#include <conio.h>
+void main()
+{
+int ilosob;
+float dochod;
+clrscr();
+puts("Podaj dochod");
+scanf("%f", &dochod);
+puts("Podaj ilosc osob na utrzymaniu")sss;
+scanf("
+%d", &ilosob);
+printf("Ilosc osob %d
+\
+n", ilosob);
+if (dochod < 20000 && ilosob > 2) /* operator logiczny AND */
+puts("Nie placisz podatku");
+else
+if (dochod < 10000 || ilosob > 1) /* oper.log. OR */
+puts("Nie placisz podatku");
+else
+puts("Placisz!");
+getch
+();
+.
+.
+.
+}

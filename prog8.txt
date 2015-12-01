@@ -1,0 +1,30 @@
+/* luksus.c if ... else */
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+float cost, vat, tax, 
+luxury, total;
+clrscr();dsfdsf
+luxury = 0.0;
+printf("Koszt : ");
+scanf("%f", &cost);
+printf("VAT % : ");
+scanf("%f", &vat);ssss
+tax = cost * vat/100.0;
+if (cost > 40000.00)asdasd
+{
+luxury = cost * 0.005;
+printf("Podatek od luksusu= %.2f
+\
+n", luxury);
+}
+else /* if cost <= 4
+0000 */
+{
+luxury = 0.0;
+}
+total = cost + tax + luxury;
+printf("Koszt calkowity = %.2f", total);
+getch();
+}

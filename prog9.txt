@@ -1,0 +1,28 @@
+/
+* iftax.c Operator logiczny. Warunek logiczny oparty na danych podanych z klawiatury 
+*/
+#include <stdio.h>
+#include <conio.h>
+#def
+ine VAT 0.22
+main()
+{
+int taxa;
+float cost, tax;
+clrscr();
+tax = 0.0;
+printf("Podaj cene produktu: ");
+scanf("%f", &cost);
+printf("Podaj T jesli towar opodatkowany, N jesli wolny od podatku: ");
+fflush(stdin); /* usun zawart bsssufora standard urzadz we !!!! 
+*/
+taxa=getchar();
+putchar(taxa);
+if (taxa == 'T')
+tax = cost * VAT;
+printf("
+\
+nCena brutto = %f", cost + tax);
+getch();
+return;
+}
